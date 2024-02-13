@@ -20,3 +20,14 @@ let myFunction = function (a: number, b?: number): number {
   guitarThree = ['electric', 'EB Music Man', 6];
   
   console.log(guitarThree);
+
+class Astronaut {
+  name: string;
+  constructor(firstName: string, lastName: string) {
+    this.name = firstName + " " lastName;
+  }
+  greet () {
+    return "Hello, " + this.name; 
+  }
+}
+let bob = new Astronaut("Sally", "Ride");
